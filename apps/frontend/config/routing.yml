@@ -1,0 +1,31 @@
+login:
+  url:     /login
+  param:   { module: user, action: login }
+new_user:
+  url:     /new_user
+  param:   { module: user, action: newuser }
+logout:
+  url:     /logout
+  param:   { module: user, action: logout }
+api_login:
+  url:     /api_login
+  param:   { module: api, action: login }
+  requirements:
+    sf_format: [json]
+my_ruckus:
+  url: /my_ruckus
+  param: { module: my_ruckus, action: index }
+
+# default rules
+homepage:
+  url:   /
+  param: { module: my_ruckus, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:user
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

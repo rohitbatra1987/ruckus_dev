@@ -1,0 +1,1890 @@
+Achievements:
+  connection: doctrine
+  tableName: achievements
+  columns:
+    achievement_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    ach_description:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    ach_image:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    StudentAchievement:
+      local: achievement_id
+      foreign: achievement_id
+      type: many
+Activities:
+  connection: doctrine
+  tableName: activities
+  columns:
+    activity_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    book_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    activity_type_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    ActivityType:
+      local: activity_type_id
+      foreign: activity_type_id
+      type: one
+    Book:
+      local: book_id
+      foreign: book_id
+      type: one
+    AssessmentResultBoolean:
+      local: activity_id
+      foreign: activity_id
+      type: many
+    AssessmentResultFloat:
+      local: activity_id
+      foreign: activity_id
+      type: many
+    AssessmentResultInteger:
+      local: activity_id
+      foreign: activity_id
+      type: many
+    AssessmentResultVarchar:
+      local: activity_id
+      foreign: activity_id
+      type: many
+    AssessmentResultsWordHunt:
+      local: activity_id
+      foreign: activity_id
+      type: many
+ActivityParameters:
+  connection: doctrine
+  tableName: activity_parameters
+  columns:
+    assessment_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    activity_type_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    ass_description:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    ass_data_type:
+      type: string(20)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    ActivityType:
+      local: activity_type_id
+      foreign: activity_type_id
+      type: one
+    AssessmentResultBoolean:
+      local: assessment_id
+      foreign: assessment_id
+      type: many
+    AssessmentResultFloat:
+      local: assessment_id
+      foreign: assessment_id
+      type: many
+    AssessmentResultInteger:
+      local: assessment_id
+      foreign: assessment_id
+      type: many
+    AssessmentResultVarchar:
+      local: assessment_id
+      foreign: assessment_id
+      type: many
+ActivityType:
+  connection: doctrine
+  tableName: activity_type
+  columns:
+    activity_type_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    act_type_description:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Activities:
+      local: activity_type_id
+      foreign: activity_type_id
+      type: many
+    ActivityParameters:
+      local: activity_type_id
+      foreign: activity_type_id
+      type: many
+    AssessmentActivity:
+      local: activity_type_id
+      foreign: activity_type_id
+      type: many
+AssessmentActivity:
+  connection: doctrine
+  tableName: assessment_activity
+  columns:
+    ass_act_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    assessment_type_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    activity_type_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    ActivityType:
+      local: activity_type_id
+      foreign: activity_type_id
+      type: one
+    AssessmentType:
+      local: assessment_type_id
+      foreign: assessment_type_id
+      type: one
+AssessmentResultBoolean:
+  connection: doctrine
+  tableName: assessment_result_boolean
+  columns:
+    assmt_result_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    activity_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    assessment_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    result_data:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    auto_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_session_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Activities:
+      local: activity_id
+      foreign: activity_id
+      type: one
+    ActivityParameters:
+      local: assessment_id
+      foreign: assessment_id
+      type: one
+    Students:
+      local: student_id
+      foreign: student_id
+      type: one
+AssessmentResultFloat:
+  connection: doctrine
+  tableName: assessment_result_float
+  columns:
+    assmt_result_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    activity_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    assessment_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    result_data:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    auto_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_session_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Activities:
+      local: activity_id
+      foreign: activity_id
+      type: one
+    ActivityParameters:
+      local: assessment_id
+      foreign: assessment_id
+      type: one
+    Students:
+      local: student_id
+      foreign: student_id
+      type: one
+AssessmentResultInteger:
+  connection: doctrine
+  tableName: assessment_result_integer
+  columns:
+    assmt_result_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    activity_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    assessment_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    result_data:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    auto_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_session_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Activities:
+      local: activity_id
+      foreign: activity_id
+      type: one
+    ActivityParameters:
+      local: assessment_id
+      foreign: assessment_id
+      type: one
+    Students:
+      local: student_id
+      foreign: student_id
+      type: one
+AssessmentResultVarchar:
+  connection: doctrine
+  tableName: assessment_result_varchar
+  columns:
+    assmt_result_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    activity_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    assessment_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    result_data:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    auto_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_session_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Activities:
+      local: activity_id
+      foreign: activity_id
+      type: one
+    ActivityParameters:
+      local: assessment_id
+      foreign: assessment_id
+      type: one
+    Students:
+      local: student_id
+      foreign: student_id
+      type: one
+AssessmentResultsWordHunt:
+  connection: doctrine
+  tableName: assessment_results_word_hunt
+  columns:
+    arwh_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    taps:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    found_it:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    incorrect_word_taps:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    target_word:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    time_stamp:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    try_number:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    activity_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    auto_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_session_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Activities:
+      local: activity_id
+      foreign: activity_id
+      type: one
+    Students:
+      local: student_id
+      foreign: student_id
+      type: one
+AssessmentType:
+  connection: doctrine
+  tableName: assessment_type
+  columns:
+    assessment_type_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    short_name:
+      type: string(20)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    description:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    AssessmentActivity:
+      local: assessment_type_id
+      foreign: assessment_type_id
+      type: many
+Avatar:
+  connection: doctrine
+  tableName: avatar
+  columns:
+    avatar_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    avt_image:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+Book:
+  connection: doctrine
+  tableName: book
+  columns:
+    book_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    level_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    category_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    series_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    bk_image:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    BookCategory:
+      local: category_id
+      foreign: category_id
+      type: one
+    BookLevels:
+      local: level_id
+      foreign: level_id
+      type: one
+    BookSeries:
+      local: series_id
+      foreign: series_id
+      type: one
+    Activities:
+      local: book_id
+      foreign: book_id
+      type: many
+    BookDetails:
+      local: book_id
+      foreign: book_id
+      type: many
+    MetricResultBoolean:
+      local: book_id
+      foreign: book_id
+      type: many
+    MetricResultFloat:
+      local: book_id
+      foreign: book_id
+      type: many
+    MetricResultInteger:
+      local: book_id
+      foreign: book_id
+      type: many
+    MetricResultVarchar:
+      local: book_id
+      foreign: book_id
+      type: many
+    TagTaxonomy:
+      local: book_id
+      foreign: book_id
+      type: many
+BookCategory:
+  connection: doctrine
+  tableName: book_category
+  columns:
+    category_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    bk_cat_description:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    bk_cat_code:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Book:
+      local: category_id
+      foreign: category_id
+      type: many
+BookDetails:
+  connection: doctrine
+  tableName: book_details
+  columns:
+    book_detail_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    book_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    bk_content_location:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    bk_price:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    bk_description:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Book:
+      local: book_id
+      foreign: book_id
+      type: one
+BookLevels:
+  connection: doctrine
+  tableName: book_levels
+  columns:
+    level_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    level_code:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    level_description:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Book:
+      local: level_id
+      foreign: level_id
+      type: many
+BookSeries:
+  connection: doctrine
+  tableName: book_series
+  columns:
+    series_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    series_icon:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    srs_description:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Book:
+      local: series_id
+      foreign: series_id
+      type: many
+Faq:
+  connection: doctrine
+  tableName: faq
+  columns:
+    faq_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    faq_title:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    faq_description:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+GraphImages:
+  connection: doctrine
+  tableName: graph_images
+  columns:
+    graph_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    image_url:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    graph_type:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    generate_time:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    graph_name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+MetricParameters:
+  connection: doctrine
+  tableName: metric_parameters
+  columns:
+    metric_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    mtr_description:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    mtr_data_type:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    MetricResultBoolean:
+      local: metric_id
+      foreign: metric_id
+      type: many
+    MetricResultFloat:
+      local: metric_id
+      foreign: metric_id
+      type: many
+    MetricResultInteger:
+      local: metric_id
+      foreign: metric_id
+      type: many
+    MetricResultVarchar:
+      local: metric_id
+      foreign: metric_id
+      type: many
+MetricResultBoolean:
+  connection: doctrine
+  tableName: metric_result_boolean
+  columns:
+    metric_result_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    metric_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    book_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    result_data:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    auto_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_session_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Book:
+      local: book_id
+      foreign: book_id
+      type: one
+    MetricParameters:
+      local: metric_id
+      foreign: metric_id
+      type: one
+    Students:
+      local: student_id
+      foreign: student_id
+      type: one
+MetricResultFloat:
+  connection: doctrine
+  tableName: metric_result_float
+  columns:
+    metric_result_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    metric_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    book_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    result_data:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    auto_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_session_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Book:
+      local: book_id
+      foreign: book_id
+      type: one
+    MetricParameters:
+      local: metric_id
+      foreign: metric_id
+      type: one
+    Students:
+      local: student_id
+      foreign: student_id
+      type: one
+MetricResultInteger:
+  connection: doctrine
+  tableName: metric_result_integer
+  columns:
+    metric_result_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    metric_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    book_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    result_data:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    auto_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_session_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Book:
+      local: book_id
+      foreign: book_id
+      type: one
+    MetricParameters:
+      local: metric_id
+      foreign: metric_id
+      type: one
+    Students:
+      local: student_id
+      foreign: student_id
+      type: one
+MetricResultVarchar:
+  connection: doctrine
+  tableName: metric_result_varchar
+  columns:
+    metric_result_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    metric_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    book_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    result_data:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    auto_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    device_session_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Book:
+      local: book_id
+      foreign: book_id
+      type: one
+    MetricParameters:
+      local: metric_id
+      foreign: metric_id
+      type: one
+    Students:
+      local: student_id
+      foreign: student_id
+      type: one
+StudentAchievement:
+  connection: doctrine
+  tableName: student_achievement
+  columns:
+    student_achievement_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    achievement_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Achievements:
+      local: achievement_id
+      foreign: achievement_id
+      type: one
+    Students:
+      local: student_id
+      foreign: student_id
+      type: one
+Students:
+  connection: doctrine
+  tableName: students
+  columns:
+    student_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    stu_fname:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    stu_lname:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    stu_gender:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    stu_age:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    stu_avatar_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    User:
+      local: user_id
+      foreign: user_id
+      type: one
+    AssessmentResultBoolean:
+      local: student_id
+      foreign: student_id
+      type: many
+    AssessmentResultFloat:
+      local: student_id
+      foreign: student_id
+      type: many
+    AssessmentResultInteger:
+      local: student_id
+      foreign: student_id
+      type: many
+    AssessmentResultVarchar:
+      local: student_id
+      foreign: student_id
+      type: many
+    AssessmentResultsWordHunt:
+      local: student_id
+      foreign: student_id
+      type: many
+    MetricResultBoolean:
+      local: student_id
+      foreign: student_id
+      type: many
+    MetricResultFloat:
+      local: student_id
+      foreign: student_id
+      type: many
+    MetricResultInteger:
+      local: student_id
+      foreign: student_id
+      type: many
+    MetricResultVarchar:
+      local: student_id
+      foreign: student_id
+      type: many
+    StudentAchievement:
+      local: student_id
+      foreign: student_id
+      type: many
+TagTaxonomy:
+  connection: doctrine
+  tableName: tag_taxonomy
+  columns:
+    tag_taxonomy_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    book_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    tag_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Tags:
+      local: tag_id
+      foreign: tag_id
+      type: one
+    Book:
+      local: book_id
+      foreign: book_id
+      type: one
+Tags:
+  connection: doctrine
+  tableName: tags
+  columns:
+    tag_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    tag_name:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    TagTaxonomy:
+      local: tag_id
+      foreign: tag_id
+      type: many
+User:
+  connection: doctrine
+  tableName: user
+  columns:
+    user_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    first_name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    last_name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    email_address:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    additional_emails:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    username:
+      type: string(128)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    salt:
+      type: string(128)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    pass:
+      type: string(128)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    is_active:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '1'
+      notnull: false
+      autoincrement: false
+    is_super_admin:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: false
+      autoincrement: false
+    last_login:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    access_token:
+      type: string(128)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Students:
+      local: user_id
+      foreign: user_id
+      type: many

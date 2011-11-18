@@ -1,0 +1,11 @@
+all:
+  mailer:
+    param:
+      transport:
+        class: Swift_SmtpTransport
+        param:
+          host:       smtp.gmail.com
+          port:       465
+          encryption: ssl
+          username: mail.ruckus@gmail.com
+          password: Hamesha1$

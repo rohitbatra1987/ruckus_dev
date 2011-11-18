@@ -1,0 +1,7 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=ruckus_dev;unix_socket=/opt/bitnami/mysql/tmp/mysql.sock;'
+      username: root
+      password: rucku$30

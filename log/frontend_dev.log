@@ -1,0 +1,921 @@
+Nov 14 07:21:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 14 07:21:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 07:21:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 07:21:34 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 14 07:21:34 symfony [info] {sfPHPView} Render "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony/controller/default/templates/indexSuccess.php"
+Nov 14 07:21:34 symfony [info] {sfPHPView} Decorate content with "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony\controller\default\templates/defaultLayout.php"
+Nov 14 07:21:34 symfony [info] {sfPHPView} Render "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony\controller\default\templates/defaultLayout.php"
+Nov 14 07:21:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 07:21:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 07:21:34 symfony [info] {sfWebDebugLogger} Configuration 268.39 ms (9)
+Nov 14 07:21:34 symfony [info] {sfWebDebugLogger} Factories 156.65 ms (1)
+Nov 14 07:21:34 symfony [info] {sfWebDebugLogger} Action "default/index" 0.23 ms (1)
+Nov 14 07:21:34 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 21.84 ms (1)
+Nov 14 07:21:34 symfony [info] {sfWebResponse} Send content (29385 o)
+Nov 14 07:23:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 14 07:23:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 07:23:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 07:23:43 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 14 07:23:43 symfony [info] {sfPHPView} Render "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony/controller/default/templates/indexSuccess.php"
+Nov 14 07:23:43 symfony [info] {sfPHPView} Decorate content with "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony\controller\default\templates/defaultLayout.php"
+Nov 14 07:23:43 symfony [info] {sfPHPView} Render "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony\controller\default\templates/defaultLayout.php"
+Nov 14 07:23:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 07:23:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 07:23:43 symfony [info] {sfWebDebugLogger} Configuration 11.04 ms (9)
+Nov 14 07:23:43 symfony [info] {sfWebDebugLogger} Factories 40.74 ms (1)
+Nov 14 07:23:43 symfony [info] {sfWebDebugLogger} Action "default/index" 0.20 ms (1)
+Nov 14 07:23:43 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 15.38 ms (1)
+Nov 14 07:23:43 symfony [info] {sfWebResponse} Send content (29415 o)
+Nov 14 07:23:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 14 07:23:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 07:23:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 07:23:49 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 14 07:23:49 symfony [info] {sfPHPView} Render "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony/controller/default/templates/indexSuccess.php"
+Nov 14 07:23:49 symfony [info] {sfPHPView} Decorate content with "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony\controller\default\templates/defaultLayout.php"
+Nov 14 07:23:49 symfony [info] {sfPHPView} Render "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony\controller\default\templates/defaultLayout.php"
+Nov 14 07:23:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 07:23:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 07:23:49 symfony [info] {sfWebDebugLogger} Configuration 10.48 ms (9)
+Nov 14 07:23:49 symfony [info] {sfWebDebugLogger} Factories 36.25 ms (1)
+Nov 14 07:23:49 symfony [info] {sfWebDebugLogger} Action "default/index" 0.20 ms (1)
+Nov 14 07:23:49 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 15.06 ms (1)
+Nov 14 07:23:49 symfony [info] {sfWebResponse} Send content (29453 o)
+Nov 14 07:31:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 14 07:31:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 07:31:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 07:31:54 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 14 07:31:54 symfony [info] {sfPHPView} Render "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony/controller/default/templates/indexSuccess.php"
+Nov 14 07:31:54 symfony [info] {sfPHPView} Decorate content with "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony\controller\default\templates/defaultLayout.php"
+Nov 14 07:31:54 symfony [info] {sfPHPView} Render "C:\wamp\bin\php\php5.3.5\PEAR\pear\symfony\controller\default\templates/defaultLayout.php"
+Nov 14 07:31:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 07:31:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 07:31:54 symfony [info] {sfWebDebugLogger} Configuration 26.25 ms (10)
+Nov 14 07:31:54 symfony [info] {sfWebDebugLogger} Factories 35.79 ms (1)
+Nov 14 07:31:54 symfony [info] {sfWebDebugLogger} Action "default/index" 0.21 ms (1)
+Nov 14 07:31:54 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 32.18 ms (1)
+Nov 14 07:31:54 symfony [info] {sfWebResponse} Send content (29586 o)
+Nov 14 10:56:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /user/newuser with parameters array (  'module' => 'user',  'action' => 'newuser',)
+Nov 14 10:56:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 10:56:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 10:56:26 symfony [info] {userActions} Call "userActions->executeNewuser()"
+Nov 14 10:56:26 symfony [info] {sfPHPView} Render "C:/wamp/www/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/newuserSuccess.php"
+Nov 14 10:56:26 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 10:56:26 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 10:56:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 10:56:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 10:56:26 symfony [info] {sfWebDebugLogger} Configuration 377.72 ms (9)
+Nov 14 10:56:26 symfony [info] {sfWebDebugLogger} Factories 259.78 ms (1)
+Nov 14 10:56:26 symfony [info] {sfWebDebugLogger} Action "user/newuser" 33.20 ms (1)
+Nov 14 10:56:26 symfony [info] {sfWebDebugLogger} View "Success" for "user/newuser" 114.27 ms (1)
+Nov 14 10:56:26 symfony [info] {sfWebResponse} Send content (32352 o)
+Nov 14 10:57:27 symfony [info] {sfPatternRouting} Match route "new_user" (/new_user) for /new_user with parameters array (  'module' => 'user',  'action' => 'newuser',)
+Nov 14 10:57:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 10:57:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 10:57:27 symfony [info] {userActions} Call "userActions->executeNewuser()"
+Nov 14 10:57:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 10:57:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.email_address = ? OR u.username = ?) - (mail.ruckus@gmail.com, ruckus)
+Nov 14 10:57:28 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO user (is_active, is_super_admin, username, salt, pass, first_name, last_name, email_address) VALUES (?, ?, ?, ?, ?, ?, ?, ?) - (0, 0, ruckus, a734e08460ec31e97771705d3b4908215bb23162, 98c961e4c97743b274503fbe64974e4130c7320f, pankaj, sahni, mail.ruckus@gmail.com)
+Nov 14 10:57:36 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 10:57:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 10:57:36 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 10:57:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 10:57:36 symfony [info] {sfWebDebugLogger} Configuration 11.73 ms (8)
+Nov 14 10:57:36 symfony [info] {sfWebDebugLogger} Factories 48.84 ms (1)
+Nov 14 10:57:36 symfony [info] {sfWebDebugLogger} Action "user/newuser" 8609.68 ms (1)
+Nov 14 10:57:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (3)
+Nov 14 10:57:36 symfony [info] {sfWebResponse} Send content (125 o)
+Nov 14 10:57:36 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 10:57:36 symfony [info] {myUser} Flag old flash messages ("message")
+Nov 14 10:57:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 10:57:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 10:57:36 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 10:57:36 symfony [info] {sfPHPView} Render "C:/wamp/www/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 10:57:36 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 10:57:36 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 10:57:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 10:57:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 10:57:36 symfony [info] {sfWebDebugLogger} Configuration 13.87 ms (9)
+Nov 14 10:57:36 symfony [info] {sfWebDebugLogger} Factories 48.64 ms (1)
+Nov 14 10:57:36 symfony [info] {sfWebDebugLogger} Action "user/login" 7.07 ms (1)
+Nov 14 10:57:36 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 19.30 ms (1)
+Nov 14 10:57:36 symfony [info] {sfWebResponse} Send content (31231 o)
+Nov 14 10:57:36 symfony [info] {myUser} Remove old flash messages ("message")
+Nov 14 11:07:00 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:07:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:07:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:07:00 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:07:00 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:07:00 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:00 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:07:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:07:00 symfony [info] {sfWebDebugLogger} Configuration 59.97 ms (10)
+Nov 14 11:07:00 symfony [info] {sfWebDebugLogger} Factories 43.29 ms (1)
+Nov 14 11:07:00 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.27 ms (1)
+Nov 14 11:07:00 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 20.43 ms (1)
+Nov 14 11:07:00 symfony [info] {sfWebResponse} Send content (28309 o)
+Nov 14 11:07:08 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:07:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:07:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:07:08 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:07:08 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:07:08 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:08 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:07:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:07:08 symfony [info] {sfWebDebugLogger} Configuration 11.95 ms (9)
+Nov 14 11:07:08 symfony [info] {sfWebDebugLogger} Factories 48.26 ms (1)
+Nov 14 11:07:08 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.37 ms (1)
+Nov 14 11:07:08 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 12.68 ms (1)
+Nov 14 11:07:08 symfony [info] {sfWebResponse} Send content (28306 o)
+Nov 14 11:07:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /my_ruckus/edit/user_id/2 with parameters array (  'module' => 'my_ruckus',  'action' => 'edit',  'user_id' => '2',)
+Nov 14 11:07:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:07:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:07:10 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeEdit()"
+Nov 14 11:07:10 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 11:07:10 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.user_id = ?) LIMIT 1 - (2)
+Nov 14 11:07:10 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/editSuccess.php"
+Nov 14 11:07:10 symfony [info] {sfPartialView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/_form.php"
+Nov 14 11:07:10 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:10 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:07:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:07:10 symfony [info] {sfWebDebugLogger} Configuration 12.47 ms (9)
+Nov 14 11:07:10 symfony [info] {sfWebDebugLogger} Factories 49.08 ms (1)
+Nov 14 11:07:10 symfony [info] {sfWebDebugLogger} Action "my_ruckus/edit" 75.28 ms (1)
+Nov 14 11:07:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Nov 14 11:07:10 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/edit" 26.58 ms (1)
+Nov 14 11:07:10 symfony [info] {sfWebDebugLogger} Partial "my_ruckus/_form" 10.58 ms (1)
+Nov 14 11:07:10 symfony [info] {sfWebResponse} Send content (38067 o)
+Nov 14 11:07:14 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:07:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:07:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:07:14 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:07:14 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:07:14 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:14 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:07:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:07:14 symfony [info] {sfWebDebugLogger} Configuration 13.95 ms (9)
+Nov 14 11:07:14 symfony [info] {sfWebDebugLogger} Factories 43.66 ms (1)
+Nov 14 11:07:14 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.26 ms (1)
+Nov 14 11:07:14 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 13.40 ms (1)
+Nov 14 11:07:14 symfony [info] {sfWebResponse} Send content (28410 o)
+Nov 14 11:07:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /my_ruckus/edit/user_id/2 with parameters array (  'module' => 'my_ruckus',  'action' => 'edit',  'user_id' => '2',)
+Nov 14 11:07:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:07:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:07:17 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeEdit()"
+Nov 14 11:07:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 11:07:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.user_id = ?) LIMIT 1 - (2)
+Nov 14 11:07:17 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/editSuccess.php"
+Nov 14 11:07:17 symfony [info] {sfPartialView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/_form.php"
+Nov 14 11:07:17 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:17 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:07:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:07:17 symfony [info] {sfWebDebugLogger} Configuration 13.42 ms (9)
+Nov 14 11:07:17 symfony [info] {sfWebDebugLogger} Factories 46.91 ms (1)
+Nov 14 11:07:17 symfony [info] {sfWebDebugLogger} Action "my_ruckus/edit" 71.48 ms (1)
+Nov 14 11:07:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 14 11:07:17 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/edit" 24.93 ms (1)
+Nov 14 11:07:17 symfony [info] {sfWebDebugLogger} Partial "my_ruckus/_form" 10.14 ms (1)
+Nov 14 11:07:17 symfony [info] {sfWebResponse} Send content (38067 o)
+Nov 14 11:07:24 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:07:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:07:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:07:24 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:07:24 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:07:24 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:24 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:07:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:07:24 symfony [info] {sfWebDebugLogger} Configuration 13.84 ms (9)
+Nov 14 11:07:24 symfony [info] {sfWebDebugLogger} Factories 46.53 ms (1)
+Nov 14 11:07:24 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.25 ms (1)
+Nov 14 11:07:24 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 12.47 ms (1)
+Nov 14 11:07:24 symfony [info] {sfWebResponse} Send content (28409 o)
+Nov 14 11:07:55 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:07:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:07:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:07:55 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:07:55 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:07:55 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:55 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:07:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:07:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:07:55 symfony [info] {sfWebDebugLogger} Configuration 14.00 ms (9)
+Nov 14 11:07:55 symfony [info] {sfWebDebugLogger} Factories 43.06 ms (1)
+Nov 14 11:07:55 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.26 ms (1)
+Nov 14 11:07:55 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 13.20 ms (1)
+Nov 14 11:07:55 symfony [info] {sfWebResponse} Send content (28441 o)
+Nov 14 11:08:22 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:08:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:08:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:08:22 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:08:22 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:08:22 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:08:22 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:08:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:08:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:08:22 symfony [info] {sfWebDebugLogger} Configuration 14.41 ms (9)
+Nov 14 11:08:22 symfony [info] {sfWebDebugLogger} Factories 43.05 ms (1)
+Nov 14 11:08:22 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.26 ms (1)
+Nov 14 11:08:22 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 13.43 ms (1)
+Nov 14 11:08:22 symfony [info] {sfWebResponse} Send content (28512 o)
+Nov 14 11:08:28 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:08:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:08:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:08:28 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:08:28 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:08:28 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:08:28 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:08:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:08:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:08:28 symfony [info] {sfWebDebugLogger} Configuration 15.67 ms (9)
+Nov 14 11:08:28 symfony [info] {sfWebDebugLogger} Factories 43.69 ms (1)
+Nov 14 11:08:28 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.31 ms (1)
+Nov 14 11:08:28 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 13.27 ms (1)
+Nov 14 11:08:28 symfony [info] {sfWebResponse} Send content (28378 o)
+Nov 14 11:08:30 symfony [info] {sfPatternRouting} Match route "logout" (/logout) for /logout with parameters array (  'module' => 'user',  'action' => 'logout',)
+Nov 14 11:08:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:08:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:08:30 symfony [info] {userActions} Call "userActions->executeLogout()"
+Nov 14 11:08:30 symfony [info] {myUser} User is not authenticated
+Nov 14 11:08:30 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:08:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:08:30 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:08:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:08:30 symfony [info] {sfWebDebugLogger} Configuration 12.57 ms (8)
+Nov 14 11:08:30 symfony [info] {sfWebDebugLogger} Factories 48.98 ms (1)
+Nov 14 11:08:30 symfony [info] {sfWebDebugLogger} Action "user/logout" 1.56 ms (1)
+Nov 14 11:08:30 symfony [info] {sfWebResponse} Send content (125 o)
+Nov 14 11:08:30 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:08:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:08:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:08:30 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:08:30 symfony [info] {sfPHPView} Render "C:/wamp/www/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 11:08:30 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:08:30 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:08:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:08:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:08:30 symfony [info] {sfWebDebugLogger} Configuration 13.61 ms (9)
+Nov 14 11:08:30 symfony [info] {sfWebDebugLogger} Factories 47.54 ms (1)
+Nov 14 11:08:30 symfony [info] {sfWebDebugLogger} Action "user/login" 7.06 ms (1)
+Nov 14 11:08:30 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 19.29 ms (1)
+Nov 14 11:08:30 symfony [info] {sfWebResponse} Send content (29946 o)
+Nov 14 11:08:36 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:08:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:08:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:08:36 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:08:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 11:08:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.email_address = ? OR u.username = ? AND u.is_active = ?) - (ruckus, ruckus, 1)
+Nov 14 11:08:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.username = ? AND u.pass = ? AND u.is_active = ?) - (ruckus, 98c961e4c97743b274503fbe64974e4130c7320f, 1)
+Nov 14 11:08:36 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE user SET last_login = ? WHERE (user_id = ?) - (2011-11-14 11:08:36, 2)
+Nov 14 11:08:36 symfony [info] {myUser} User is authenticated
+Nov 14 11:08:36 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:08:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:08:36 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:08:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:08:36 symfony [info] {sfWebDebugLogger} Configuration 10.54 ms (8)
+Nov 14 11:08:36 symfony [info] {sfWebDebugLogger} Factories 48.46 ms (1)
+Nov 14 11:08:36 symfony [info] {sfWebDebugLogger} Action "user/login" 117.34 ms (1)
+Nov 14 11:08:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (4)
+Nov 14 11:08:36 symfony [info] {sfWebResponse} Send content (129 o)
+Nov 14 11:08:37 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:08:37 symfony [info] {myUser} Flag old flash messages ("message")
+Nov 14 11:08:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:08:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:08:37 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:08:37 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:08:37 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:08:37 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:08:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:08:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:08:37 symfony [info] {sfWebDebugLogger} Configuration 13.97 ms (9)
+Nov 14 11:08:37 symfony [info] {sfWebDebugLogger} Factories 66.83 ms (1)
+Nov 14 11:08:37 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.25 ms (1)
+Nov 14 11:08:37 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 12.73 ms (1)
+Nov 14 11:08:37 symfony [info] {sfWebResponse} Send content (29038 o)
+Nov 14 11:08:37 symfony [info] {myUser} Remove old flash messages ("message")
+Nov 14 11:09:36 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:09:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:09:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:09:36 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:09:36 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:09:36 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:09:36 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:09:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:09:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:09:36 symfony [info] {sfWebDebugLogger} Configuration 11.35 ms (9)
+Nov 14 11:09:36 symfony [info] {sfWebDebugLogger} Factories 46.79 ms (1)
+Nov 14 11:09:36 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.27 ms (1)
+Nov 14 11:09:36 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 14.67 ms (1)
+Nov 14 11:09:36 symfony [info] {sfWebResponse} Send content (28497 o)
+Nov 14 11:09:39 symfony [info] {sfPatternRouting} Match route "logout" (/logout) for /logout with parameters array (  'module' => 'user',  'action' => 'logout',)
+Nov 14 11:09:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:09:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:09:39 symfony [info] {userActions} Call "userActions->executeLogout()"
+Nov 14 11:09:39 symfony [info] {myUser} User is not authenticated
+Nov 14 11:09:39 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:09:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:09:39 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:09:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:09:39 symfony [info] {sfWebDebugLogger} Configuration 11.70 ms (8)
+Nov 14 11:09:39 symfony [info] {sfWebDebugLogger} Factories 46.81 ms (1)
+Nov 14 11:09:39 symfony [info] {sfWebDebugLogger} Action "user/logout" 1.77 ms (1)
+Nov 14 11:09:39 symfony [info] {sfWebResponse} Send content (125 o)
+Nov 14 11:09:39 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:09:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:09:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:09:39 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:09:39 symfony [info] {sfPHPView} Render "C:/wamp/www/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 11:09:39 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:09:39 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:09:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:09:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:09:39 symfony [info] {sfWebDebugLogger} Configuration 9.90 ms (9)
+Nov 14 11:09:39 symfony [info] {sfWebDebugLogger} Factories 45.75 ms (1)
+Nov 14 11:09:39 symfony [info] {sfWebDebugLogger} Action "user/login" 7.64 ms (1)
+Nov 14 11:09:39 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 31.24 ms (1)
+Nov 14 11:09:39 symfony [info] {sfWebResponse} Send content (29876 o)
+Nov 14 11:09:47 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:09:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:09:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:09:47 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:09:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 11:09:47 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.email_address = ? OR u.username = ? AND u.is_active = ?) - (ruckus, ruckus, 1)
+Nov 14 11:09:47 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.username = ? AND u.pass = ? AND u.is_active = ?) - (ruckus, 98c961e4c97743b274503fbe64974e4130c7320f, 1)
+Nov 14 11:09:47 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE user SET last_login = ? WHERE (user_id = ?) - (2011-11-14 11:09:47, 2)
+Nov 14 11:09:47 symfony [info] {myUser} User is authenticated
+Nov 14 11:09:47 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:09:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:09:47 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:09:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:09:47 symfony [info] {sfWebDebugLogger} Configuration 11.83 ms (8)
+Nov 14 11:09:47 symfony [info] {sfWebDebugLogger} Factories 43.40 ms (1)
+Nov 14 11:09:47 symfony [info] {sfWebDebugLogger} Action "user/login" 116.15 ms (1)
+Nov 14 11:09:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (4)
+Nov 14 11:09:47 symfony [info] {sfWebResponse} Send content (129 o)
+Nov 14 11:09:47 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:09:47 symfony [info] {myUser} Flag old flash messages ("message")
+Nov 14 11:09:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:09:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:09:47 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:09:47 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:09:47 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:09:47 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:09:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:09:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:09:47 symfony [info] {sfWebDebugLogger} Configuration 14.22 ms (9)
+Nov 14 11:09:47 symfony [info] {sfWebDebugLogger} Factories 43.82 ms (1)
+Nov 14 11:09:47 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.25 ms (1)
+Nov 14 11:09:47 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 13.65 ms (1)
+Nov 14 11:09:47 symfony [info] {sfWebResponse} Send content (29044 o)
+Nov 14 11:09:47 symfony [info] {myUser} Remove old flash messages ("message")
+Nov 14 11:09:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /my_ruckus/edit/user_id/2 with parameters array (  'module' => 'my_ruckus',  'action' => 'edit',  'user_id' => '2',)
+Nov 14 11:09:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:09:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:09:49 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeEdit()"
+Nov 14 11:09:49 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 11:09:49 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.user_id = ?) LIMIT 1 - (2)
+Nov 14 11:09:49 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/editSuccess.php"
+Nov 14 11:09:49 symfony [info] {sfPartialView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/_form.php"
+Nov 14 11:09:49 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:09:49 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:09:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:09:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:09:49 symfony [info] {sfWebDebugLogger} Configuration 14.94 ms (9)
+Nov 14 11:09:49 symfony [info] {sfWebDebugLogger} Factories 43.49 ms (1)
+Nov 14 11:09:49 symfony [info] {sfWebDebugLogger} Action "my_ruckus/edit" 71.20 ms (1)
+Nov 14 11:09:49 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 14 11:09:49 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/edit" 25.35 ms (1)
+Nov 14 11:09:49 symfony [info] {sfWebDebugLogger} Partial "my_ruckus/_form" 10.22 ms (1)
+Nov 14 11:09:49 symfony [info] {sfWebResponse} Send content (38142 o)
+Nov 14 11:09:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /my_ruckus/update/user_id/2 with parameters array (  'module' => 'my_ruckus',  'action' => 'update',  'user_id' => '2',)
+Nov 14 11:09:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:09:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:09:59 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeUpdate()"
+Nov 14 11:09:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 11:09:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.user_id = ?) LIMIT 1 - (2)
+Nov 14 11:09:59 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE user SET additional_emails = ? WHERE user_id = ? - (test@gmail.com, 2)
+Nov 14 11:09:59 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:09:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:09:59 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:09:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:09:59 symfony [info] {sfWebDebugLogger} Configuration 12.10 ms (8)
+Nov 14 11:09:59 symfony [info] {sfWebDebugLogger} Factories 48.00 ms (1)
+Nov 14 11:09:59 symfony [info] {sfWebDebugLogger} Action "my_ruckus/update" 123.78 ms (1)
+Nov 14 11:09:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (3)
+Nov 14 11:09:59 symfony [info] {sfWebResponse} Send content (129 o)
+Nov 14 11:09:59 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:09:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:09:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:09:59 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:09:59 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:09:59 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:09:59 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:09:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:09:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:09:59 symfony [info] {sfWebDebugLogger} Configuration 23.85 ms (9)
+Nov 14 11:09:59 symfony [info] {sfWebDebugLogger} Factories 49.80 ms (1)
+Nov 14 11:09:59 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.26 ms (1)
+Nov 14 11:09:59 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 13.39 ms (1)
+Nov 14 11:09:59 symfony [info] {sfWebResponse} Send content (28484 o)
+Nov 14 11:10:10 symfony [info] {sfPatternRouting} Match route "logout" (/logout) for /logout with parameters array (  'module' => 'user',  'action' => 'logout',)
+Nov 14 11:10:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:10:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:10:11 symfony [info] {userActions} Call "userActions->executeLogout()"
+Nov 14 11:10:11 symfony [info] {myUser} User is not authenticated
+Nov 14 11:10:11 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:10:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:10:11 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:10:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:10:11 symfony [info] {sfWebDebugLogger} Configuration 12.12 ms (8)
+Nov 14 11:10:11 symfony [info] {sfWebDebugLogger} Factories 48.99 ms (1)
+Nov 14 11:10:11 symfony [info] {sfWebDebugLogger} Action "user/logout" 1.56 ms (1)
+Nov 14 11:10:11 symfony [info] {sfWebResponse} Send content (125 o)
+Nov 14 11:10:11 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:10:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:10:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:10:11 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:10:11 symfony [info] {sfPHPView} Render "C:/wamp/www/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 11:10:11 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:10:11 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:10:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:10:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:10:11 symfony [info] {sfWebDebugLogger} Configuration 13.49 ms (9)
+Nov 14 11:10:11 symfony [info] {sfWebDebugLogger} Factories 43.94 ms (1)
+Nov 14 11:10:11 symfony [info] {sfWebDebugLogger} Action "user/login" 7.07 ms (1)
+Nov 14 11:10:11 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 18.52 ms (1)
+Nov 14 11:10:11 symfony [info] {sfWebResponse} Send content (29877 o)
+Nov 14 11:14:36 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:14:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:14:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:14:36 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:14:36 symfony [info] {sfPHPView} Render "C:/wamp/www/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 11:14:36 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:14:36 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:14:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:14:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:14:36 symfony [info] {sfWebDebugLogger} Configuration 14.06 ms (9)
+Nov 14 11:14:36 symfony [info] {sfWebDebugLogger} Factories 50.10 ms (1)
+Nov 14 11:14:36 symfony [info] {sfWebDebugLogger} Action "user/login" 7.08 ms (1)
+Nov 14 11:14:36 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 19.83 ms (1)
+Nov 14 11:14:36 symfony [info] {sfWebResponse} Send content (29790 o)
+Nov 14 11:14:42 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:14:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:14:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:14:42 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:14:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 11:14:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.email_address = ? OR u.username = ? AND u.is_active = ?) - (ruckus, ruckus, 1)
+Nov 14 11:14:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.username = ? AND u.pass = ? AND u.is_active = ?) - (ruckus, 98c961e4c97743b274503fbe64974e4130c7320f, 1)
+Nov 14 11:14:42 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE user SET last_login = ? WHERE (user_id = ?) - (2011-11-14 11:14:42, 2)
+Nov 14 11:14:42 symfony [info] {myUser} Add credential(s) "SuperAdministrator"
+Nov 14 11:14:42 symfony [info] {myUser} User is authenticated
+Nov 14 11:14:42 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:14:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:14:42 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:14:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:14:42 symfony [info] {sfWebDebugLogger} Configuration 11.50 ms (8)
+Nov 14 11:14:42 symfony [info] {sfWebDebugLogger} Factories 46.53 ms (1)
+Nov 14 11:14:42 symfony [info] {sfWebDebugLogger} Action "user/login" 112.57 ms (1)
+Nov 14 11:14:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.05 ms (4)
+Nov 14 11:14:42 symfony [info] {sfWebResponse} Send content (129 o)
+Nov 14 11:14:42 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:14:42 symfony [info] {myUser} Flag old flash messages ("message")
+Nov 14 11:14:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:14:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:14:42 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:14:42 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:14:42 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:14:42 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:14:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:14:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:14:42 symfony [info] {sfWebDebugLogger} Configuration 13.00 ms (9)
+Nov 14 11:14:42 symfony [info] {sfWebDebugLogger} Factories 46.93 ms (1)
+Nov 14 11:14:42 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.31 ms (1)
+Nov 14 11:14:42 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 16.09 ms (1)
+Nov 14 11:14:42 symfony [info] {sfWebResponse} Send content (29077 o)
+Nov 14 11:14:42 symfony [info] {myUser} Remove old flash messages ("message")
+Nov 14 11:14:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /my_ruckus/edit/user_id/2 with parameters array (  'module' => 'my_ruckus',  'action' => 'edit',  'user_id' => '2',)
+Nov 14 11:14:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:14:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:14:44 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeEdit()"
+Nov 14 11:14:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 11:14:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.user_id = ?) LIMIT 1 - (2)
+Nov 14 11:14:44 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/editSuccess.php"
+Nov 14 11:14:44 symfony [info] {sfPartialView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/_form.php"
+Nov 14 11:14:44 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:14:44 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:14:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:14:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:14:44 symfony [info] {sfWebDebugLogger} Configuration 11.37 ms (9)
+Nov 14 11:14:44 symfony [info] {sfWebDebugLogger} Factories 41.73 ms (1)
+Nov 14 11:14:44 symfony [info] {sfWebDebugLogger} Action "my_ruckus/edit" 61.47 ms (1)
+Nov 14 11:14:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 14 11:14:44 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/edit" 23.36 ms (1)
+Nov 14 11:14:44 symfony [info] {sfWebDebugLogger} Partial "my_ruckus/_form" 9.20 ms (1)
+Nov 14 11:14:44 symfony [info] {sfWebResponse} Send content (38189 o)
+Nov 14 11:14:47 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:14:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:14:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:14:47 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:14:47 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:14:47 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:14:47 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:14:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:14:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:14:47 symfony [info] {sfWebDebugLogger} Configuration 14.88 ms (9)
+Nov 14 11:14:47 symfony [info] {sfWebDebugLogger} Factories 48.42 ms (1)
+Nov 14 11:14:47 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.27 ms (1)
+Nov 14 11:14:47 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 14.20 ms (1)
+Nov 14 11:14:47 symfony [info] {sfWebResponse} Send content (28519 o)
+Nov 14 11:14:50 symfony [info] {sfPatternRouting} Match route "logout" (/logout) for /logout with parameters array (  'module' => 'user',  'action' => 'logout',)
+Nov 14 11:14:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:14:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:14:50 symfony [info] {userActions} Call "userActions->executeLogout()"
+Nov 14 11:14:50 symfony [info] {myUser} User is not authenticated
+Nov 14 11:14:50 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:14:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:14:50 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:14:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:14:50 symfony [info] {sfWebDebugLogger} Configuration 9.99 ms (8)
+Nov 14 11:14:50 symfony [info] {sfWebDebugLogger} Factories 43.93 ms (1)
+Nov 14 11:14:50 symfony [info] {sfWebDebugLogger} Action "user/logout" 1.57 ms (1)
+Nov 14 11:14:50 symfony [info] {sfWebResponse} Send content (125 o)
+Nov 14 11:14:50 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:14:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:14:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:14:50 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:14:50 symfony [info] {sfPHPView} Render "C:/wamp/www/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 11:14:50 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:14:50 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:14:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:14:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:14:50 symfony [info] {sfWebDebugLogger} Configuration 10.02 ms (9)
+Nov 14 11:14:50 symfony [info] {sfWebDebugLogger} Factories 41.55 ms (1)
+Nov 14 11:14:50 symfony [info] {sfWebDebugLogger} Action "user/login" 6.92 ms (1)
+Nov 14 11:14:50 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 18.88 ms (1)
+Nov 14 11:14:50 symfony [info] {sfWebResponse} Send content (29877 o)
+Nov 14 11:51:12 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:51:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:51:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:51:12 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:51:12 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:51:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:51:12 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:51:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:51:12 symfony [info] {sfWebDebugLogger} Configuration 15.22 ms (8)
+Nov 14 11:51:12 symfony [info] {sfWebDebugLogger} Factories 49.73 ms (1)
+Nov 14 11:51:12 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 1.36 ms (1)
+Nov 14 11:51:12 symfony [info] {sfWebResponse} Send content (125 o)
+Nov 14 11:51:12 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:51:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:51:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:51:12 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:51:12 symfony [info] {sfPHPView} Render "C:/wamp/www/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 11:51:12 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:51:12 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:51:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:51:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:51:12 symfony [info] {sfWebDebugLogger} Configuration 15.40 ms (9)
+Nov 14 11:51:12 symfony [info] {sfWebDebugLogger} Factories 48.22 ms (1)
+Nov 14 11:51:12 symfony [info] {sfWebDebugLogger} Action "user/login" 7.19 ms (1)
+Nov 14 11:51:12 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 22.58 ms (1)
+Nov 14 11:51:12 symfony [info] {sfWebResponse} Send content (29790 o)
+Nov 14 11:51:20 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:51:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:51:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:51:20 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:51:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 11:51:20 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.email_address = ? OR u.username = ? AND u.is_active = ?) - (ruckus, ruckus, 1)
+Nov 14 11:51:20 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.username = ? AND u.pass = ? AND u.is_active = ?) - (ruckus, 98c961e4c97743b274503fbe64974e4130c7320f, 1)
+Nov 14 11:51:20 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE user SET last_login = ? WHERE (user_id = ?) - (2011-11-14 11:51:20, 2)
+Nov 14 11:51:20 symfony [info] {myUser} Add credential(s) "SuperAdministrator"
+Nov 14 11:51:20 symfony [info] {myUser} User is authenticated
+Nov 14 11:51:20 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:51:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:51:20 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:51:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:51:20 symfony [info] {sfWebDebugLogger} Configuration 12.88 ms (8)
+Nov 14 11:51:20 symfony [info] {sfWebDebugLogger} Factories 50.00 ms (1)
+Nov 14 11:51:20 symfony [info] {sfWebDebugLogger} Action "user/login" 112.47 ms (1)
+Nov 14 11:51:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.05 ms (4)
+Nov 14 11:51:20 symfony [info] {sfWebResponse} Send content (129 o)
+Nov 14 11:51:20 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:51:20 symfony [info] {myUser} Flag old flash messages ("message")
+Nov 14 11:51:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:51:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:51:20 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:51:20 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:51:20 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:51:20 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:51:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:51:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:51:20 symfony [info] {sfWebDebugLogger} Configuration 15.59 ms (9)
+Nov 14 11:51:20 symfony [info] {sfWebDebugLogger} Factories 48.46 ms (1)
+Nov 14 11:51:20 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.27 ms (1)
+Nov 14 11:51:20 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 17.34 ms (1)
+Nov 14 11:51:20 symfony [info] {sfWebResponse} Send content (29078 o)
+Nov 14 11:51:20 symfony [info] {myUser} Remove old flash messages ("message")
+Nov 14 11:56:08 symfony [info] {sfPatternRouting} Match route "logout" (/logout) for /logout with parameters array (  'module' => 'user',  'action' => 'logout',)
+Nov 14 11:56:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:56:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:56:08 symfony [info] {userActions} Call "userActions->executeLogout()"
+Nov 14 11:56:08 symfony [info] {myUser} User is not authenticated
+Nov 14 11:56:08 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:56:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:56:08 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/login"
+Nov 14 11:56:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:56:08 symfony [info] {sfWebDebugLogger} Configuration 9.75 ms (8)
+Nov 14 11:56:08 symfony [info] {sfWebDebugLogger} Factories 41.60 ms (1)
+Nov 14 11:56:08 symfony [info] {sfWebDebugLogger} Action "user/logout" 1.68 ms (1)
+Nov 14 11:56:08 symfony [info] {sfWebResponse} Send content (125 o)
+Nov 14 11:56:08 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:56:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:56:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:56:08 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:56:08 symfony [info] {sfPHPView} Render "C:/wamp/www/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 11:56:08 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:56:08 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:56:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:56:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:56:08 symfony [info] {sfWebDebugLogger} Configuration 6.62 ms (9)
+Nov 14 11:56:08 symfony [info] {sfWebDebugLogger} Factories 38.67 ms (1)
+Nov 14 11:56:08 symfony [info] {sfWebDebugLogger} Action "user/login" 6.76 ms (1)
+Nov 14 11:56:08 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 18.22 ms (1)
+Nov 14 11:56:08 symfony [info] {sfWebResponse} Send content (29876 o)
+Nov 14 11:56:29 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 11:56:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:56:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:56:29 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 11:56:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 11:56:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.email_address = ? OR u.username = ? AND u.is_active = ?) - (ruckus, ruckus, 1)
+Nov 14 11:56:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.username = ? AND u.pass = ? AND u.is_active = ?) - (ruckus, 98c961e4c97743b274503fbe64974e4130c7320f, 1)
+Nov 14 11:56:29 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE user SET last_login = ? WHERE (user_id = ?) - (2011-11-14 11:56:29, 2)
+Nov 14 11:56:29 symfony [info] {myUser} Add credential(s) "SuperAdministrator"
+Nov 14 11:56:29 symfony [info] {myUser} User is authenticated
+Nov 14 11:56:29 symfony [info] {sfFrontWebController} Redirect to "http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:56:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 11:56:29 symfony [info] {sfWebResponse} Send header "Location: http://localhost/ruckus_dev/web/frontend_dev.php/my_ruckus"
+Nov 14 11:56:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:56:29 symfony [info] {sfWebDebugLogger} Configuration 9.97 ms (8)
+Nov 14 11:56:29 symfony [info] {sfWebDebugLogger} Factories 67.95 ms (1)
+Nov 14 11:56:29 symfony [info] {sfWebDebugLogger} Action "user/login" 129.49 ms (1)
+Nov 14 11:56:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (4)
+Nov 14 11:56:29 symfony [info] {sfWebResponse} Send content (129 o)
+Nov 14 11:56:29 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 11:56:29 symfony [info] {myUser} Flag old flash messages ("message")
+Nov 14 11:56:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 11:56:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 11:56:29 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 11:56:29 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 11:56:29 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:56:29 symfony [info] {sfPHPView} Render "C:\wamp\www\ruckus_dev\apps\frontend\templates/layout.php"
+Nov 14 11:56:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 11:56:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 11:56:29 symfony [info] {sfWebDebugLogger} Configuration 9.72 ms (9)
+Nov 14 11:56:29 symfony [info] {sfWebDebugLogger} Factories 41.99 ms (1)
+Nov 14 11:56:29 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.27 ms (1)
+Nov 14 11:56:29 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 12.70 ms (1)
+Nov 14 11:56:29 symfony [info] {sfWebResponse} Send content (29076 o)
+Nov 14 11:56:29 symfony [info] {myUser} Remove old flash messages ("message")
+Nov 14 22:46:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 22:46:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:46:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:46:49 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 22:46:49 symfony [info] {sfFrontWebController} Redirect to "http://107.20.217.97:8080/frontend_dev.php/login"
+Nov 14 22:46:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 22:46:49 symfony [info] {sfWebResponse} Send header "Location: http://107.20.217.97:8080/frontend_dev.php/login"
+Nov 14 22:46:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:46:49 symfony [info] {sfWebDebugLogger} Configuration 185.79 ms (8)
+Nov 14 22:46:49 symfony [info] {sfWebDebugLogger} Factories 112.82 ms (1)
+Nov 14 22:46:49 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.99 ms (1)
+Nov 14 22:46:49 symfony [info] {sfWebResponse} Send content (119 o)
+Nov 14 22:46:49 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 22:46:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:46:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:46:49 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 22:46:49 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 22:46:49 symfony [info] {sfPHPView} Decorate content with "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:46:49 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:46:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 22:46:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:46:49 symfony [info] {sfWebDebugLogger} Configuration 18.74 ms (10)
+Nov 14 22:46:49 symfony [info] {sfWebDebugLogger} Factories 41.51 ms (1)
+Nov 14 22:46:49 symfony [info] {sfWebDebugLogger} Action "user/login" 6.32 ms (1)
+Nov 14 22:46:49 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 17.02 ms (1)
+Nov 14 22:46:49 symfony [info] {sfWebResponse} Send content (29237 o)
+Nov 14 22:47:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 22:47:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:47:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:47:07 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 22:47:07 symfony [info] {sfFrontWebController} Redirect to "http://107.20.217.97:8080/frontend_dev.php/login"
+Nov 14 22:47:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 22:47:07 symfony [info] {sfWebResponse} Send header "Location: http://107.20.217.97:8080/frontend_dev.php/login"
+Nov 14 22:47:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:47:07 symfony [info] {sfWebDebugLogger} Configuration 1.31 ms (8)
+Nov 14 22:47:07 symfony [info] {sfWebDebugLogger} Factories 44.33 ms (1)
+Nov 14 22:47:07 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.98 ms (1)
+Nov 14 22:47:07 symfony [info] {sfWebResponse} Send content (119 o)
+Nov 14 22:47:07 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 22:47:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:47:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:47:07 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 22:47:07 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 22:47:07 symfony [info] {sfPHPView} Decorate content with "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:47:07 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:47:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 22:47:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:47:07 symfony [info] {sfWebDebugLogger} Configuration 1.53 ms (9)
+Nov 14 22:47:07 symfony [info] {sfWebDebugLogger} Factories 41.74 ms (1)
+Nov 14 22:47:07 symfony [info] {sfWebDebugLogger} Action "user/login" 7.06 ms (1)
+Nov 14 22:47:07 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 14.93 ms (1)
+Nov 14 22:47:07 symfony [info] {sfWebResponse} Send content (29266 o)
+Nov 14 22:50:19 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 22:50:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:50:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:50:19 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 22:50:19 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 22:50:19 symfony [info] {sfPHPView} Decorate content with "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:50:19 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:50:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 22:50:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:50:19 symfony [info] {sfWebDebugLogger} Configuration 1.70 ms (9)
+Nov 14 22:50:19 symfony [info] {sfWebDebugLogger} Factories 46.20 ms (1)
+Nov 14 22:50:19 symfony [info] {sfWebDebugLogger} Action "user/login" 7.45 ms (1)
+Nov 14 22:50:19 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 15.74 ms (1)
+Nov 14 22:50:19 symfony [info] {sfWebResponse} Send content (29266 o)
+Nov 14 22:53:50 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 22:53:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:53:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:53:50 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 22:53:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 22:53:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.email_address = ? OR u.username = ? AND u.is_active = ?) - (ruckus, ruckus, 1)
+Nov 14 22:53:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.username = ? AND u.pass = ? AND u.is_active = ?) - (ruckus, 98c961e4c97743b274503fbe64974e4130c7320f, 1)
+Nov 14 22:53:50 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE user SET last_login = ? WHERE (user_id = ?) - (2011-11-14 22:53:50, 2)
+Nov 14 22:53:50 symfony [info] {myUser} Add credential(s) "SuperAdministrator"
+Nov 14 22:53:50 symfony [info] {myUser} User is authenticated
+Nov 14 22:53:50 symfony [info] {sfFrontWebController} Redirect to "http://107.20.217.97:8080/frontend_dev.php/my_ruckus"
+Nov 14 22:53:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 22:53:50 symfony [info] {sfWebResponse} Send header "Location: http://107.20.217.97:8080/frontend_dev.php/my_ruckus"
+Nov 14 22:53:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:53:50 symfony [info] {sfWebDebugLogger} Configuration 1.34 ms (8)
+Nov 14 22:53:50 symfony [info] {sfWebDebugLogger} Factories 43.43 ms (1)
+Nov 14 22:53:50 symfony [info] {sfWebDebugLogger} Action "user/login" 84.03 ms (1)
+Nov 14 22:53:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
+Nov 14 22:53:50 symfony [info] {sfWebResponse} Send content (123 o)
+Nov 14 22:53:51 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 22:53:51 symfony [info] {myUser} Flag old flash messages ("message")
+Nov 14 22:53:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:53:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:53:51 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 22:53:51 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 22:53:51 symfony [info] {sfPHPView} Decorate content with "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:53:51 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:53:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 22:53:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:53:51 symfony [info] {sfWebDebugLogger} Configuration 17.14 ms (10)
+Nov 14 22:53:51 symfony [info] {sfWebDebugLogger} Factories 44.83 ms (1)
+Nov 14 22:53:51 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.31 ms (1)
+Nov 14 22:53:51 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 31.66 ms (1)
+Nov 14 22:53:51 symfony [info] {sfWebResponse} Send content (28582 o)
+Nov 14 22:53:51 symfony [info] {myUser} Remove old flash messages ("message")
+Nov 14 22:58:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 22:58:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:58:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:58:27 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 22:58:27 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 22:58:27 symfony [info] {sfPHPView} Decorate content with "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:58:27 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:58:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 22:58:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:58:27 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (9)
+Nov 14 22:58:27 symfony [info] {sfWebDebugLogger} Factories 45.85 ms (1)
+Nov 14 22:58:27 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.15 ms (1)
+Nov 14 22:58:27 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 10.86 ms (1)
+Nov 14 22:58:27 symfony [info] {sfWebResponse} Send content (27793 o)
+Nov 14 22:58:33 symfony [info] {sfPatternRouting} Match route "logout" (/logout) for /logout with parameters array (  'module' => 'user',  'action' => 'logout',)
+Nov 14 22:58:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:58:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:58:33 symfony [info] {userActions} Call "userActions->executeLogout()"
+Nov 14 22:58:33 symfony [info] {myUser} User is not authenticated
+Nov 14 22:58:33 symfony [info] {sfFrontWebController} Redirect to "http://107.20.217.97:8080/frontend_dev.php/login"
+Nov 14 22:58:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 22:58:33 symfony [info] {sfWebResponse} Send header "Location: http://107.20.217.97:8080/frontend_dev.php/login"
+Nov 14 22:58:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:58:33 symfony [info] {sfWebDebugLogger} Configuration 1.22 ms (8)
+Nov 14 22:58:33 symfony [info] {sfWebDebugLogger} Factories 44.14 ms (1)
+Nov 14 22:58:33 symfony [info] {sfWebDebugLogger} Action "user/logout" 1.11 ms (1)
+Nov 14 22:58:33 symfony [info] {sfWebResponse} Send content (119 o)
+Nov 14 22:58:33 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 22:58:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:58:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:58:33 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 22:58:33 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 22:58:33 symfony [info] {sfPHPView} Decorate content with "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:58:33 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:58:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 22:58:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:58:33 symfony [info] {sfWebDebugLogger} Configuration 1.36 ms (9)
+Nov 14 22:58:33 symfony [info] {sfWebDebugLogger} Factories 40.49 ms (1)
+Nov 14 22:58:33 symfony [info] {sfWebDebugLogger} Action "user/login" 6.46 ms (1)
+Nov 14 22:58:33 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 14.32 ms (1)
+Nov 14 22:58:33 symfony [info] {sfWebResponse} Send content (29305 o)
+Nov 14 22:58:37 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 22:58:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:58:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:58:37 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 22:58:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 22:58:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.email_address = ? OR u.username = ? AND u.is_active = ?) - (ruckus, ruckus, 1)
+Nov 14 22:58:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.username = ? AND u.pass = ? AND u.is_active = ?) - (ruckus, 98c961e4c97743b274503fbe64974e4130c7320f, 1)
+Nov 14 22:58:37 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE user SET last_login = ? WHERE (user_id = ?) - (2011-11-14 22:58:37, 2)
+Nov 14 22:58:37 symfony [info] {myUser} Add credential(s) "SuperAdministrator"
+Nov 14 22:58:37 symfony [info] {myUser} User is authenticated
+Nov 14 22:58:37 symfony [info] {sfFrontWebController} Redirect to "http://107.20.217.97:8080/frontend_dev.php/my_ruckus"
+Nov 14 22:58:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 22:58:37 symfony [info] {sfWebResponse} Send header "Location: http://107.20.217.97:8080/frontend_dev.php/my_ruckus"
+Nov 14 22:58:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:58:37 symfony [info] {sfWebDebugLogger} Configuration 1.21 ms (8)
+Nov 14 22:58:37 symfony [info] {sfWebDebugLogger} Factories 41.27 ms (1)
+Nov 14 22:58:37 symfony [info] {sfWebDebugLogger} Action "user/login" 95.48 ms (1)
+Nov 14 22:58:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
+Nov 14 22:58:37 symfony [info] {sfWebResponse} Send content (123 o)
+Nov 14 22:58:37 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 22:58:37 symfony [info] {myUser} Flag old flash messages ("message")
+Nov 14 22:58:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 22:58:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 22:58:37 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 22:58:37 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 22:58:37 symfony [info] {sfPHPView} Decorate content with "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:58:37 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 22:58:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 22:58:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 22:58:37 symfony [info] {sfWebDebugLogger} Configuration 1.44 ms (9)
+Nov 14 22:58:37 symfony [info] {sfWebDebugLogger} Factories 41.66 ms (1)
+Nov 14 22:58:37 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.16 ms (1)
+Nov 14 22:58:37 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 9.84 ms (1)
+Nov 14 22:58:37 symfony [info] {sfWebResponse} Send content (28578 o)
+Nov 14 22:58:37 symfony [info] {myUser} Remove old flash messages ("message")
+Nov 14 23:34:55 symfony [info] {sfPatternRouting} Match route "logout" (/logout) for /logout with parameters array (  'module' => 'user',  'action' => 'logout',)
+Nov 14 23:34:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 23:34:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 23:34:55 symfony [info] {userActions} Call "userActions->executeLogout()"
+Nov 14 23:34:55 symfony [info] {myUser} User is not authenticated
+Nov 14 23:34:55 symfony [info] {sfFrontWebController} Redirect to "http://107.20.217.97:8080/frontend_dev.php/login"
+Nov 14 23:34:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 23:34:55 symfony [info] {sfWebResponse} Send header "Location: http://107.20.217.97:8080/frontend_dev.php/login"
+Nov 14 23:34:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 23:34:55 symfony [info] {sfWebDebugLogger} Configuration 1.30 ms (8)
+Nov 14 23:34:55 symfony [info] {sfWebDebugLogger} Factories 44.73 ms (1)
+Nov 14 23:34:55 symfony [info] {sfWebDebugLogger} Action "user/logout" 1.26 ms (1)
+Nov 14 23:34:55 symfony [info] {sfWebResponse} Send content (119 o)
+Nov 14 23:34:56 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 23:34:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 23:34:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 23:34:56 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 23:34:56 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/plugins/sfUserPlugin/modules/user/templates/loginSuccess.php"
+Nov 14 23:34:56 symfony [info] {sfPHPView} Decorate content with "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 23:34:56 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 23:34:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 23:34:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 23:34:56 symfony [info] {sfWebDebugLogger} Configuration 1.46 ms (9)
+Nov 14 23:34:56 symfony [info] {sfWebDebugLogger} Factories 44.49 ms (1)
+Nov 14 23:34:56 symfony [info] {sfWebDebugLogger} Action "user/login" 7.02 ms (1)
+Nov 14 23:34:56 symfony [info] {sfWebDebugLogger} View "Success" for "user/login" 15.04 ms (1)
+Nov 14 23:34:56 symfony [info] {sfWebResponse} Send content (29315 o)
+Nov 14 23:35:11 symfony [info] {sfPatternRouting} Match route "login" (/login) for /login with parameters array (  'module' => 'user',  'action' => 'login',)
+Nov 14 23:35:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 23:35:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 23:35:11 symfony [info] {userActions} Call "userActions->executeLogin()"
+Nov 14 23:35:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 14 23:35:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.email_address = ? OR u.username = ? AND u.is_active = ?) - (ruckus, ruckus, 1)
+Nov 14 23:35:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_id AS u__user_id, u.first_name AS u__first_name, u.last_name AS u__last_name, u.email_address AS u__email_address, u.additional_emails AS u__additional_emails, u.username AS u__username, u.salt AS u__salt, u.pass AS u__pass, u.is_active AS u__is_active, u.is_super_admin AS u__is_super_admin, u.last_login AS u__last_login, u.access_token AS u__access_token, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE (u.username = ? AND u.pass = ? AND u.is_active = ?) - (ruckus, 98c961e4c97743b274503fbe64974e4130c7320f, 1)
+Nov 14 23:35:11 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE user SET last_login = ? WHERE (user_id = ?) - (2011-11-14 23:35:11, 2)
+Nov 14 23:35:11 symfony [info] {myUser} Add credential(s) "SuperAdministrator"
+Nov 14 23:35:11 symfony [info] {myUser} User is authenticated
+Nov 14 23:35:11 symfony [info] {sfFrontWebController} Redirect to "http://107.20.217.97:8080/frontend_dev.php/my_ruckus"
+Nov 14 23:35:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 14 23:35:11 symfony [info] {sfWebResponse} Send header "Location: http://107.20.217.97:8080/frontend_dev.php/my_ruckus"
+Nov 14 23:35:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 23:35:11 symfony [info] {sfWebDebugLogger} Configuration 1.55 ms (8)
+Nov 14 23:35:11 symfony [info] {sfWebDebugLogger} Factories 54.58 ms (1)
+Nov 14 23:35:11 symfony [info] {sfWebDebugLogger} Action "user/login" 85.31 ms (1)
+Nov 14 23:35:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
+Nov 14 23:35:11 symfony [info] {sfWebResponse} Send content (123 o)
+Nov 14 23:35:11 symfony [info] {sfPatternRouting} Match route "my_ruckus" (/my_ruckus) for /my_ruckus with parameters array (  'module' => 'my_ruckus',  'action' => 'index',)
+Nov 14 23:35:11 symfony [info] {myUser} Flag old flash messages ("message")
+Nov 14 23:35:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 14 23:35:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 14 23:35:11 symfony [info] {my_ruckusActions} Call "my_ruckusActions->executeIndex()"
+Nov 14 23:35:11 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/modules/my_ruckus/templates/indexSuccess.php"
+Nov 14 23:35:11 symfony [info] {sfPHPView} Decorate content with "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 23:35:11 symfony [info] {sfPHPView} Render "/opt/bitnami/apache2/htdocs/ruckus_dev/apps/frontend/templates/layout.php"
+Nov 14 23:35:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 14 23:35:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 14 23:35:11 symfony [info] {sfWebDebugLogger} Configuration 1.49 ms (9)
+Nov 14 23:35:11 symfony [info] {sfWebDebugLogger} Factories 43.62 ms (1)
+Nov 14 23:35:11 symfony [info] {sfWebDebugLogger} Action "my_ruckus/index" 0.17 ms (1)
+Nov 14 23:35:11 symfony [info] {sfWebDebugLogger} View "Success" for "my_ruckus/index" 11.53 ms (1)
+Nov 14 23:35:11 symfony [info] {sfWebResponse} Send content (28580 o)
+Nov 14 23:35:11 symfony [info] {myUser} Remove old flash messages ("message")

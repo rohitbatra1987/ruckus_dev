@@ -1,0 +1,270 @@
+/*
+    designed by WebTemplateOcean (http://www.webtemplateocean.com) 
+    released under Creative Commons Attribution-ShareAlike 3.0 license
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 81.25% Arial, Helvetica, sans-serif;
+    color: #928F67;
+    background: #E4EDD7 url(../images/bg.jpg) repeat-x;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+h1 {
+    padding: 36px 0 10px 0;
+    font-size: 34px;
+    text-align: center;
+    color: White;
+}
+
+h1 a, h1 a:hover {
+    color: White;
+    text-decoration: none;
+}
+
+p {
+    padding: 10px 0;
+    line-height: 1.6em;
+}
+
+p.description {
+    padding: 0;
+    font-size: .85em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3B6CB8;
+}
+
+a {
+    color: #5C93D1;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li span {
+    padding-right: 5px;
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 354px;
+    background: url(../images/bg2.jpg) repeat-x;
+}
+
+/* page */
+
+#page {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    padding: 40px 30px 0 30px;
+    background: #A7C57F url(../images/img.jpg) no-repeat;
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+}
+
+#logo {
+    width: 290px;
+    height: 150px;
+    margin-left: 8px;
+    background: url(../images/logobg.jpg);
+}
+
+#main {
+    height: 1%;
+    background: #DCE8CC url(../images/middle.gif) repeat-y;
+}
+
+#main2 {
+    height: 1%;
+    background: url(../images/middle2.jpg) no-repeat bottom;
+}
+
+#main3 {
+    height: 1%;
+    padding: 8px 8px 0 8px;
+    background: url(../images/middle.jpg) no-repeat;
+}
+
+/* menu */
+
+#menu {
+    padding: 1px;
+    border: 1px solid #E1D96C;
+}
+
+#menu2 {
+    height: 40px;
+    background: #76A9DC url(../images/menu.gif) repeat-x;
+}
+
+#menu ul {
+    list-style: none;
+    width: 600px;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    padding: 0 16px;
+}
+
+#menu ul li a {
+    display: block;
+    float: left;
+    padding: 0 0 0 10px;
+    font-size: 1.23em;
+    line-height: 40px;
+    text-decoration: none;
+    color: #3C2700;
+    background: url(../images/arrow.gif) no-repeat left;
+}
+
+#menu ul li a:hover {
+    color: #D9E6D5;
+    background: url(../images/arrowover.gif) no-repeat left;
+}
+
+/* search form */
+
+#search {
+    position: absolute;
+    top: 207px;
+    right: 70px;
+    width: 250px;
+}
+
+#search input.text {
+    float: left;
+    display: block;
+    padding: 3px;
+    width: 195px;
+    font-size: 13px;
+    color: #3C2700;
+    background: #D9E6D5;
+    border: 1px solid #C4D7BA;
+}
+
+#search input.submit {
+    float: right;
+    display: block;
+    padding: 3px 0;
+    width: 40px;
+    font-size: 13px;
+    color: #3C2700;
+    background: #E8D44F url(../images/submit.gif) repeat-x;
+    border: none;
+    cursor: pointer;
+}
+
+/* sidebar */
+
+#sidebar {
+    clear: both;
+    float: left;
+    margin-bottom: 30px;
+    padding-bottom: 6px;
+    width: 290px;
+    background: url(../images/sidebar.gif) no-repeat bottom;
+}
+
+#sidebar2 {
+    padding-top: 20px;
+    background: #E4EDD7 url(../images/sidebar.jpg) no-repeat;
+}
+
+#sidebar h2 {
+    margin: 0 10px;
+    font-size: 1.38em;
+    line-height: 40px;
+    text-align: center;
+    color: #786420;
+    background: #E4EDD7 url(../images/h2.gif) no-repeat;
+}
+
+#sidebar .box {
+    padding: 10px 20px 35px 20px;
+}
+
+#sidebar .box h2 {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.6em;
+    font-weight: bold;
+    text-align: left;
+    color: #786420;
+    background: none;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 20px 10px 45px 20px;
+}
+
+#sidebar ul li {
+    padding: 0;
+    line-height: 2em;
+    color: #959ED6;
+}
+
+#sidebar ul li a {
+    padding: 0;
+}
+
+/* content */
+
+#content {
+    float: right;
+    width: 550px;
+    padding: 30px 10px 0 0;
+}
+
+#content h2 {
+    font-size: 1.38em;
+    color: #3C2700;
+}
+
+#content .box {
+    padding: 10px 0 45px 0;
+}
+
+#content ul {
+    list-style: none;
+    padding: 10px 0 10px 30px;
+    line-height: 1.6em;
+}
+
+#content ul li {
+    padding: 0;
+}
+
+.clearing {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* footer */
+
+#footer {
+}
+
+#footer p {
+    padding: 20px 0;
+    text-align: center;
+    color: #3C2700;
+}
